@@ -1,0 +1,19 @@
+@@include('_header.html', { "bodyClass": "homepage" })
+
+
+<main>
+
+  <div class="social-media-container">
+    <!-- options: white, black, large -->
+    @@include('components/_social_media.html', { "color": "black" })
+  </div><!-- social-media-container -->
+
+  @@include('components/_news.html')
+
+  @@include('components/_featured.html')
+
+
+</main><!-- end main -->
+
+
+@@include('_footer.html')
